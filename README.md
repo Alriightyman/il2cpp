@@ -1,7 +1,7 @@
 ﻿il2cpp
 ===
 
-> 「  在享受C#开发效率的同时, 获得C++编译器往死里优化的执行速度  」
+> 「  While enjoying the efficiency of C# development, obtain the deadly optimized execution speed of the C++ compiler  」
 
 ![alt tag](https://github.com/anydream/il2cpp/raw/master/il2cpp-schematic.png)
 
@@ -29,48 +29,48 @@
     ```
   - Run ``test`` project to test your code.
 
-## 交流群
+## Exchange group
   - ``QQ:548409690``
 
-## 已实现的特性
-- [x] 类型/方法/字段的引用分析, 提取最小依赖子集
-- [x] 虚方法调用与虚表绑定
-- [x] 接口与基类方法的显式重写
-- [x] 协变/逆变分析
-- [x] 内嵌保守式垃圾回收器
-- [x] 静态构造函数
-- [x] try/catch/finally/fault 异常块的解析与代码生成
-- [x] 一维数组/多维数组的代码生成
-- [x] 枚举类型处理
-- [x] 字符串常量代码生成
-- [x] 可空类型代码生成
-- [x] 显式字段布局和结构体长度
-- [x] 方法委托
-- [x] C++ 代码编译工具
-- [x] 数组读写指令
-- [x] 栈操作指令
-- [x] 常量载入指令
-- [x] 方法调用指令
-- [x] 变量/参数/字段读写指令
-- [x] 条件与分支指令
-- [x] 比较指令
-- [x] 数值转换指令
-- [x] 数值运算指令
-- [x] 引用和值类型对象操作指令
-- [x] 指针读写指令
-- [x] 异常处理指令
-- [x] 装箱/拆箱指令
-- [x] 溢出检查指令
+## Realized features
+- [x] Reference analysis of types/methods/fields, extracting the least dependent subset
+- [x] Virtual method call and virtual table binding
+- [x] Explicit rewriting of interface and base class methods
+- [x] Covariance/conversion analysis
+- [x] Embedded conservative garbage collector
+- [x] Static constructor
+- [x] Try/catch/finally/fault exception block analysis and code generation
+- [x] Code generation of one-dimensional array/multi-dimensional array
+- [x] Enumeration type handling
+- [x] String constant code generation
+- [x] Nullable type code generation
+- [x] Explicit field layout and structure length
+- [x] Method delegation
+- [x] C++ code compilation tool
+- [x] Array read and write instructions
+- [x] Stack operation instructions
+- [x] Constant load instruction
+- [x] Method call instruction
+- [x] Variable/parameter/field read and write instructions
+- [x] Conditions and branch instructions
+- [x] Comparison instruction
+- [x] Numerical conversion instruction
+- [x] Numerical operation instructions
+- [x] Reference and value type object manipulation instructions
+- [x] Pointer read and write instructions
+- [x] Exception handling instructions
+- [x] Boxing/Unboxing Instructions
+- [x] Overflow check instruction
 
-## 明确不支持的特性
-- [x] 运行时创建新类型 (TypeBuilder.CreateType)
-- [x] 运行时生成并执行机器码 (Emit/Expression Trees)
-- [x] 运行时加载 .NET DLL 并实例化其中的类型
-- [x] 运行时实例化不存在的泛型展开 (只支持编译期存在的泛型展开)
-- [x] 运行时增加/删除/修改反射信息
-- [x] 递归的泛型参数类型展开
-- [x] 封送非静态方法委托
+## Explicitly unsupported features
+- [x] Create a new type at runtime (TypeBuilder.CreateType)
+- [x] Generate and execute machine code at runtime (Emit/Expression Trees)
+- [x] Load .NET DLL at runtime and instantiate the types in it
+- [x] Instantiate generic expansions that do not exist at runtime (only support generic expansions that exist at compile time)
+- [x] Add/delete/modify reflection information at runtime
+- [x] Recursive expansion of generic parameter types
+- [x] Marshaling non-static method delegate
 
 
-**正在如火如荼地开发中...**<br>
-**求 star 求测试~**
+**Under development in full swing...**<br>
+**Seeking star, seeking test~**
